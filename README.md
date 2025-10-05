@@ -1,1 +1,3 @@
-# customer-segmentation-cluster
+# Customer Segmentation Clustering
+
+Given data on online shopping purchasing intentions (from https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset), this performs customer segmentation based on the browsing and purchasing habits of users via density-based and hierarchical clustering. Main challenges include how to approach multivariate data that results in high-dimensionality when the categorical variables are one-hot encoded and subsequently how to feature reduce to avoid the curse of dimentionality while preserving clustering-relevant information such as the global and local structure of the data. Main findings: customers could be grouped into four categories, depending on the time spent on specific web pages and their purchasing actions.
